@@ -1,0 +1,177 @@
+body {
+    font-family:'Epilogue', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+.container-fluid {
+    padding: 2% 9%;
+}
+
+
+/* Navigation */
+.brand {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.offcanvas {
+    width: 70%;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+.nav-spacing {
+    padding: 0 3%;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-link:hover{
+    color: hsl(0, 0%, 8%);
+}
+
+
+/* Buttons */
+.btn {
+    border-radius: 0.5rem;
+}
+.main-btn {
+    margin-top: 25px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 0.6rem 1rem;
+}
+.main-btn:hover {
+    outline: #000;
+    background: hsl(0, 0%, 98%);
+    color: #000;
+}
+.btn-login {
+    background-color: hsl(0, 0%, 98%);
+    padding: 0.4rem 3rem;
+    border-radius: .8rem;
+}
+.btn-login:hover {
+    background-color:  hsl(0, 0%, 98%);
+    color:   hsl(0, 0%, 8%);
+    border-color:  hsl(0, 0%, 8%);
+}
+
+/* Main Sections */
+.main-down {
+    padding-right: 15px;
+    display: block;
+    margin-top: 90px;
+    text-align: left;
+}
+
+.menu-centre {
+    text-align: center;
+}
+
+.main-paragraph {
+    width: 80%;
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+    margin-bottom: 30px;
+}
+.main-txt {
+    display: block;
+    font-weight: bold;
+    color: hsl(0, 0%, 8%);
+    font-size: 5rem;
+    margin-bottom: 30px;
+}
+
+/* SVGS */
+
+.img-hero {
+    max-width: 100%;
+}
+
+
+.svgs {
+    float: left;
+    margin-right: 0.5rem;
+}
+.company-names {
+      display: flex;
+      width: 85%;
+      margin-top: 7rem;
+      justify-content: space-between;
+}
+  /* OTHERS */
+.content-align-left {
+    text-align: left;
+}
+
+.dropdown-toggle::after{
+    content: url('data:image/svg+xml; utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"/></svg>');
+    border: none;
+    width: 10px;
+    height: auto;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+}
+
+.round {
+    text-align: left;
+}
+
+.dropdown-menu[data-bs-popper] {
+    padding: 0.7rem 0.5rem;
+    top: 50px;
+    left: 5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 0;
+    border-radius: .5rem;
+}
+.dropdown-menu-shadow[data-bs-popper] {
+   box-shadow: none;
+}
+.dropdown-menu-left[data-bs-popper] {
+    left: 1rem;
+    padding: 0.7rem 0;
+    top: 45px;
+    border-radius: .5rem;
+}
+
+.dropdown-menu {
+    border-radius: .32em;
+    min-width: 8rem;
+    border: none;
+}
+
+.dropdown-item {
+    color: hsl(0, 0%, 41%);
+}
+
+
+@media (max-width:1011px)  {
+    .img-hero {
+        display: block;
+        width: 100%;
+    }
+    .container-fluid {
+        padding: 2% 0;
+    }
+    .main-down {
+        text-align: center;
+        margin-top: 60px;
+    }
+    .main-txt {
+        font-size: 2.5rem;
+    }
+    .main-paragraph {
+        width: 100%;
+    }
+    .company-names {
+        justify-content: space-around;
+       width: 100%;
+       margin-top: 2rem;
+    }
+}
